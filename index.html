@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="Pt-br">
-    
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,16 +17,31 @@
 
 
         }
-        
+
         .img_detalhesTecnicos {
             width: 80%;
             height: 200px;
         }
 
+        .cardmodal {
+
+            height: 100%;
+        }
+
+        .imgDetalhesTecnicos {
+
+            height: 300px;
+        }
+
 
         .img_competencias {
-            width: 30px;
-            height: 30px;
+            width: 45px;
+            height: 35px;
+        }
+
+        .img_projetos {
+            width: 20px;
+            height: 20px;
         }
 
         .btnL {
@@ -127,11 +142,12 @@
             </div>
 
 
-
+            <h6 class="text-center pt-2"> Competencias</h6>
             <div class="col-lg-12 pt-3">
                 <div class="container text-center">
+
                     <div class="row">
-                        <h6 class="text-center"> Competencias</h6>
+
                         <div class="col-lg-1 col-md-3 col-sm-4 col-6">
                             <img src="https://i.ibb.co/1ZQ6Mrj/React.png" class="img_competencias" alt="react" />
                         </div>
@@ -142,6 +158,15 @@
                         <div class="col-lg-1 col-md-3 col-sm-4 col-6">
                             <img src="https://i.ibb.co/GxTnqj1/Laravel.png" class="img_competencias" alt="Laravel" />
                         </div>
+                        <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                            <img src="https://i.ibb.co/f8SMZpJ/icone-angular.png" class="img_competencias"
+                                alt="angular" />
+                        </div>
+                        <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                            <img src="https://i.ibb.co/c6McbkQ/spring-boot-logo.png" class="img_competencias"
+                                alt="spring-boot" />
+                        </div>
+
                         <div class="col-lg-1 col-md-3 col-sm-4 col-6">
                             <img src="https://i.ibb.co/vBVRJLN/js.png" class="img_competencias" alt="js" />
                         </div>
@@ -164,10 +189,10 @@
                         <div class="col-lg-1 col-md-3 col-sm-4 col-6">
                             <img src="https://i.ibb.co/HnSrJRp/html.png" class="img_competencias" alt="html" />
                         </div>
-                        <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                        <div class="col-lg-1 col-md-3 col-sm-4 col-6 pt-2">
                             <img src="https://i.ibb.co/nbJqmJ6/css.png" class="img_competencias" alt="css" />
                         </div>
-                        <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                        <div class="col-lg-1 col-md-3 col-sm-4 col-6 pt-2">
                             <img src="https://i.ibb.co/tzQ1tpv/bootstrap.png" class="img_competencias"
                                 alt="bootstrap" />
                         </div>
@@ -187,16 +212,146 @@
             </div>
         </div>
         <h6 class="text-center pt-3">Projetos</h6>
-        <div class="accordion  pt-2" id="accordionExample">
+        <div class="accordion  pt-2" id="projetoangular">
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOneangular" aria-expanded="false" aria-controls="collapseOneangular">
+                        <samp>Sistema de gestão de produtos</samp>
+                        <img src="https://i.ibb.co/f8SMZpJ/icone-angular.png" class="img_projetos mx-2" alt="angular" />
+                    </button>
+                </h2>
+                <div id="collapseOneangular" class="accordion-collapse collapse" data-bs-parent="#projetoangular">
+                    <div class="accordion-body">
+                        <strong> O Sistema de ERP (Enterprise Resource Planning)</strong>
+                        desenvolvido com Angular, Spring Boot e PostgreSQL , Com uma interface intuitiva e moderna
+                        construída em Angular, é API backend
+                        implementada com Spring Boot, esta plataforma oferece funcionalidades abrangentes para
+                        simplificar e otimizar as operações empresariais.
+                        </br>
+                        </br>
+                        <strong>Recursos Principais:</strong>
+                        </br>
+                        </br>
+                        <strong>Gestão de Clientes:</strong>
+                        Cadastre e gerencie informações detalhadas de clientes
+                        </br>
+                        <strong>Gestão de Produtos: </strong>
+                        Mantenha um catálogo completo de produtos para venda, com categorias, descrições, preços e
+                        estoques atualizados em tempo real.
+                        </br>
+                        <strong> Gestão de Vendedores: </strong> Registre e acompanhe informações sobre os vendedores,
+                        </br>
+                        <strong>Gestão de Pedidos: </strong> Tire e acompanhe pedidos de forma eficiente, adicionando
+                        clientes, vendedores e produtos de maneira fácil e rápida.
+                        </br>
+                        <strong> Controle de Contas Recebidas:</strong> Monitore os pagamentos recebidos dos clientes,
+                        </br>
+                        </br>
+                        <strong>Tecnologias</strong>
+                        </br>
+                        </br>
+                        <div class="row">
+                            <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                                <img src="https://i.ibb.co/f8SMZpJ/icone-angular.png" class="img_competencias"
+                                    alt="angular" />
+                            </div>
+                            <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                                <img src="https://i.ibb.co/c6McbkQ/spring-boot-logo.png" class="img_competencias"
+                                    alt="spring-boot" />
+                            </div>
+                            <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                                <a href="" data-bs-toggle="modal" data-bs-target="#ModalDocker">
+
+                                    <img src="https://i.ibb.co/JnGpsB6/Postgre-SQl.png" class="img_competencias"
+                                        alt="Postgre-SQl" />
+                                </a>
+
+                            </div>
+                            <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                                <img src="https://i.ibb.co/XYRP0TD/material.png" class="img_competencias"
+                                    alt="angularmaterial" />
+                            </div>
+
+                            <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                                <img src="https://i.ibb.co/HnSrJRp/html.png" class="img_competencias" alt="html" />
+                            </div>
+                            <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                                <img src="https://i.ibb.co/nbJqmJ6/css.png" class="img_competencias" alt="css" />
+                            </div>
+                            <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                                <img src="https://i.ibb.co/tzQ1tpv/bootstrap.png" class="img_competencias"
+                                    alt="bootstrap" />
+                            </div>
+                            <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                                <img src="https://i.ibb.co/vBVRJLN/js.png" class="img_competencias" alt="js" />
+                            </div>
+                            <div class="col-lg-1 col-md-3 col-sm-4 col-6">
+                                <img src="https://i.ibb.co/2WJ32fZ/Git.png" class="img_competencias" alt="Git" />
+                            </div>
+                            <div class="col-lg-1 col-md-3 col-sm-4 col-6 ">
+                                <img src="https://i.ibb.co/Xp6cgtc/Git-Hub-logo.png" class="img_competencias"
+                                    alt="GitHub" />
+                            </div>
+
+                        </div>
+
+                        <div class="btn-group pt-4 flex-wrap " role="group" aria-label="Basic outlined example">
+                            <button type="button"
+                                class="btnL btn btn-outline-secondary btn-sm d-flex align-items-center"
+                                data-bs-toggle="modal" data-bs-target="#ModalDetalhessistemaangular">
+
+                                <span>Assista à apresentação</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-collection-play ms-2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3m2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1m2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848z" />
+                                    <path
+                                        d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5z" />
+                                </svg>
+                            </button>
+                            <button type="button"
+                                class="btnL btn btn-outline-secondary btn-sm d-flex align-items-center"
+                                data-bs-toggle="modal" data-bs-target="#ModalDetalhesprojetoAngular">
+
+                                Mais Detalhes
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-people ms-2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                                </svg>
+                            </button>
+
+                            <button type="button" class="btnL btn btn-outline-secondary d-flex align-items-center"
+                                data-bs-toggle="modal" data-bs-target="#ModaldetalhestecnicosAngular">
+
+                                Detalhes Técnicos
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-gear ms-2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0" />
+                                    <path
+                                        d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z" />
+                                </svg>
+                            </button>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Sistema de agendamentos
+                        <samp>Sistema de agendamentos</samp> <img src="https://i.ibb.co/CPvKbxr/laravel-icon.png"
+                            class="img_projetos mx-2" alt="Laravel" />
                     </button>
 
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#projetoangular">
                     <div class="accordion-body">
                         <strong>O sistema de agendamentos é uma plataforma interativa</strong>
                         projetada para simplificar o processo de marcação de serviços entre clientes e empresas. Existem
@@ -353,11 +508,15 @@
 
                     </div>
                 </div>
+
+
+
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Sistema de gestão de serviços
+                            <samp>Sistema de gestão de serviços</samp><img src="https://i.ibb.co/1ZQ6Mrj/React.png"
+                                class="img_projetos mx-2" alt="react" />
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -502,7 +661,9 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Sistema de gestão de financeira mobile
+                            Sistema de gestão de financeira mobile <img src="https://i.ibb.co/RhT0ym7/React-Native.png"
+                                class="img_projetos mx-2" alt="react native" />
+
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -586,6 +747,7 @@
             <h2></h2>
         </div>
 
+
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
@@ -628,6 +790,159 @@
                 </div>
             </div>
         </div>
+
+        <!-- aqui -->
+
+
+        <div class="modal fade" id="ModalDetalhesprojetoAngular" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row row-cols-1 row-cols-md-2 g-4 ">
+                            <div class="col ">
+                                <div class="card cardmodal">
+                                    <img src="https://i.ibb.co/xzWp1dv/home.png" class="card-img-top" alt="Pagina home">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Página Home</h5>
+                                        <p class="card-text">
+                                            Os usuários têm acesso total às funcionalidades do sistema, incluindo a
+                                            capacidade de criar novos pedidos, cadastrar produtos, clientes e
+                                            vendedores.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col ">
+                                <div class="card cardmodal">
+                                    <img src="https://i.ibb.co/m6Fy2B7/Novo-Cadastro-CLiente.png" class="card-img-top"
+                                        alt="Pagina home">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cadastro de clientes</h5>
+                                        <p class="card-text">Na página cadastro de cliente o usuário pode cadastrar seus
+                                            clientes com dados como nome, sobrenome, CPF, numero para contado e CEP, no
+                                            CEP utilizamos API do busca para autocompletar os dados e facilitar o
+                                            processo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card cardmodal">
+                                    <img src="https://i.ibb.co/jJkCkJy/Novo-Cadastro-Produto.png" class="card-img-top"
+                                        alt="Página empresa">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cadastro Produto</h5>
+                                        <p class="card-text">
+                                            Nesta página, os usuários podem cadastrar produtos fornecendo informações
+                                            como nome, código de barras, quantidade, quantidade mínima, unidade de
+                                            medida, validade (se aplicável), preço de compra, valor do frete pago,
+                                            porcentagem desejada de lucro, além de dados tributários como NCM, ICMS e
+                                            PIS. Com base nessas informações, o sistema automaticamente calcula o valor
+                                            de venda do produto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card cardmodal">
+                                    <img src="https://i.ibb.co/Fm4dvMG/Meus-Produtos-Cadastrado.png"
+                                        class="card-img-top" alt="Endereço e Contato ">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Meus Produtos</h5>
+                                        <p class="card-text">
+                                            Nesta página, os usuários têm a capacidade de visualizar todos os produtos
+                                            cadastrados no sistema. Além disso, eles podem realizar uma busca específica
+                                            pelo produto desejado. A funcionalidade de busca facilita a localização
+                                            rápida e eficiente dos produtos dentro do sistema. Adicionalmente, os
+                                            usuários têm a opção de editar ou excluir as informações desses produtos,
+                                            caso desejem, proporcionando uma experiência completa e personalizada.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card cardmodal">
+                                    <img src="https://i.ibb.co/30ZLYtJ/novo-Vendedor.png" class="card-img-top"
+                                        alt="Agendamento">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cadastro de vendedor</h5>
+                                        <p class="card-text">
+
+                                            Nesta página o usuário pode cadastrar os vendedores da empresa
+                                            dados como nome, sobrenome, CPF,
+                                            numero para contado e CEP, no
+                                            CEP utilizamos API do busca para
+                                            autocompletar os dados e facilitar o
+                                            processo, além disso, valor do
+                                            salário, data da admissão, numero da carteira de trabalho e uma senha por
+                                            usuário
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card cardmodal">
+                                    <img src="https://i.ibb.co/prSHvjt/Meus-Vendedores.png" class="card-img-top"
+                                        alt="Confirmações ">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Meus vendedores</h5>
+                                        <p class="card-text">
+                                            Nesta página, os usuários podem visualizar todos os vendedores cadastrados
+                                            no sistema e realizar buscas específicas pelo vendedor desejado. Além disso,
+                                            eles têm a opção de editar ou excluir os vendedores, conforme necessário.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col ">
+                                <div class="card cardmodal">
+                                    <img src="https://i.ibb.co/HgD0dMK/novo-pedido.png" class="card-img-top"
+                                        alt="NovoPedido">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Novo Pedido</h5>
+                                        <p class="card-text">Na página de criação de um novo pedido, os usuários podem
+                                            adicionar um cliente e um vendedor responsável, assim como incluir produtos
+                                            ao carrinho, com a opção de remover ou adicionar novos itens antes da
+                                            finalização. Após a seleção de todos os produtos desejados, é possível
+                                            escolher a forma de pagamento e concluir o pedido
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card cardmodal">
+                                    <img src="https://i.ibb.co/BTq5x5n/Meus-Pedidos.png" class="card-img-top"
+                                        alt="Avaliação">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Meus pedidos</h5>
+                                        <p class="card-text">
+                                            Nesta página, os usuários podem visualizar todos os pedidos feitos e
+                                            realizar uma busca específica pelo nome do cliente ou valor total. Além
+                                            disso, o usuário pode acessar mais detalhes do pedido clicando em um botão
+                                            específico.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
         <div class="modal fade" id="ModalDetalhesAgendamento" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -781,10 +1096,7 @@
 
 
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Sair</button>
 
-                </div>
             </div>
         </div>
 
@@ -1050,7 +1362,7 @@
 
                             </div>
 
-                            <div class="col-lg-6 pt-2" >
+                            <div class="col-lg-6 pt-2">
                                 <div class="card" style="height: 100%;">
                                     <img src="https://i.ibb.co/hZzXz9B/sql-icon.jpg" class="card-img-top"
                                         alt="Pagina home">
@@ -1087,7 +1399,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 pt-2">
-                                <div class="card" >
+                                <div class="card">
                                     <img src="https://i.ibb.co/Fx8d8JS/c4c6b99a9fab4a01bd54f8bcff8a0b80.jpg"
                                         class="card-img-top" alt="Pagina home">
                                     <div class="card-body">
@@ -1318,6 +1630,35 @@
             </div>
         </div>
 
+        <div class="modal fade" id="ModalDetalhessistemaangular" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="100%" height="380" class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/dAR1x4sCtWY"
+                        allowfullscreen></iframe>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 
         <div class="modal fade" id="ModalDetalhessistemafinanceiro" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -1341,6 +1682,167 @@
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ModaldetalhestecnicosAngular" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <img src="https://i.ibb.co/Cz8p2b3/bak.png" class="card-img-top imgDetalhesTecnicos"
+                                        alt="Pagina home">
+                                    <p class="mx-2">
+
+                                        As principais tecnologias utilizadas foram <strong>Angular, Spring Boot,
+                                            PostgreSQL
+                                        </strong>
+                                        Para o frontend, utilizei o framework
+                                        <strong>Bootstrap</strong>, juntamente com <strong>angular material</strong> é
+                                        <strong>HTML, JavaScript
+                                            e CSS.</strong>
+                                    </p>
+                                    <strong class="mx-2">
+                                        O backend foi desenvolvido utilizando o Spring Boot
+                                    </strong>
+                                    <p class="card-text mx-2">
+                                        um framework em Java conhecido por simplificar o desenvolvimento de aplicativos,
+                                        oferecendo configuração automática e uma estrutura robusta
+                                    </p>
+                                    <p class="card-text mx-2">
+                                        A conexão com o banco de dados é configurada no arquivo application.properties,
+                                        no nosso caso, utilizando o PostgreSQL. Após estabelecer a conexão, a primeira
+                                        etapa consiste em criar um arquivo models. Nesse arquivo, definimos a
+                                        estrutura da tabela e os métodos getters e setters necessários.
+                                    </p>
+                                    <pre>
+                                        <code>
+                                            @Entity
+                                            @Table(name = "TB_USUARIOS")
+                                            public class usuariosModels implements Serializable {
+                                                private static final long serialVersionUID = 1l;
+
+                                                @Id
+                                                @GeneratedValue(strategy = GenerationType.AUTO)
+                                                private UUID idUsuario;
+                                                private String nome;
+                                                private String sobrenome;
+
+                                                public UUID getIdUsuario() {
+                                                    return idUsuario;
+                                                }
+                                            
+                                                public void setIdUsuario(UUID idUsuario) {
+                                                    this.idUsuario = idUsuario;
+                                                }
+                                                public String getNome() {
+                                                    return nome;
+                                                }
+                                            
+                                                public void setNome(String nome) {
+                                                    this.nome = nome;
+                                                }
+                                            
+                                                public String getSobrenome() {
+                                                    return sobrenome;
+                                                }
+                                            
+                                                public void setSobrenome(String sobrenome) {
+                                                    this.sobrenome = sobrenome;
+                                                }
+
+                                            }
+                                                
+                                              
+                                        </code>
+                                    </pre>
+
+                                    <p class="card-text mx-2">
+                                        Após criar a tabela, desenvolvemos o RecordDto, onde podemos registrar
+                                        informações relacionadas às regras de negócio. Nesse contexto, especificamos
+                                        os campos que podem ser @NotNull ou @NotBlank, garantindo a integridade dos
+                                        dados de acordo com as regras estabelecidas para o funcionamento do sistema.
+                                    </p>
+
+
+                                    <pre>
+                                            <code>
+                                              
+                                            public record usuariosRecordDto(
+                                                @NotBlank String nome,
+                                                @NotBlank String sobrenome,
+                                                @NotBlank String cpf
+                                            )
+                                                    
+                                                  
+                                            </code>
+                                    </pre>
+                                    <p class="card-text mx-2">
+
+                                        Após criarmos o controller, ele será responsável por criar as rotas para
+                                        realizar as operações de CRUD (Create, Read, Update, Delete).
+                                    </p>
+                                    <pre>
+                                        <code>
+                                          
+                                            @PostMapping("/Cadastro/usuario")
+                                            public ResponseEntity<usuariosModels> saveProduct(@Valid @RequestBody usuariosRecordDto usuariosRecordDto) {
+                                                var usuariosModels = new usuariosModels();
+                                                BeanUtils.copyProperties(usuariosRecordDto, usuariosModels, usuariosModels.getClass());
+                                                return 
+                                                ResponseEntity.status(HttpStatus.CREATED).body(usuariosRepositories.save(usuariosModels));
+                                            }
+                                           
+                                                
+                                              
+                                        </code>
+                                 </pre>
+                                 <strong class="mx-2">Front end e back end</strong>
+                              
+                                    <p class="card-text mx-2">
+
+                                        Angular, um robusto framework JavaScript desenvolvido pelo Google, proporciona
+                                        uma
+                                        abordagem elegante para o desenvolvimento de aplicativos web, incluindo a
+                                        criação de
+                                        componentes reutilizáveis. No Angular, encontramos o Angular Material, uma
+                                        biblioteca de componentes UI que segue as diretrizes de design do Material
+                                        Design,
+                                        proporcionando uma experiência de usuário consistente e atraente.
+
+                                        Neste projeto, utilizamos HTML, CSS e TypeScript,bootstrap destacando o uso do Angular
+                                        Material. O Angular Material simplifica o desenvolvimento web responsivo e
+                                        estilizado, oferecendo uma ampla variedade de componentes prontos para uso, como
+                                        botões, caixas de diálogo, barras de progresso e muito mais.
+
+                                        O Angular utiliza rotas definidas no arquivo app-routing.module.ts e
+                                        controladores
+                                        (conhecidos como componentes no contexto do Angular) para a navegação entre as
+                                        diferentes partes do aplicativo.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Sair</button>
 
                     </div>
                 </div>
